@@ -11,7 +11,7 @@ The project is built using **JavaScript** and **WebdriverIO**, following the **P
 * **Assertion:** Node.js native `assert`
 * **Test Runner:** Mocha
 
-## ww Test Scenarios
+## Test Scenarios
 
 The suite covers 3 main test cases:
 
