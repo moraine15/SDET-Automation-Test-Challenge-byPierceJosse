@@ -10,7 +10,7 @@ describe('Login Functionality Tests', () => {
         await LoginPage.open();
     });
 
-    // --- CASE 1: POSITIVE ---
+    //CASE 1: POSITIVE
     it('TC1 - Should login successfully with valid credentials', async () => {
         // Login dengan data benar
         await LoginPage.login('student', 'Password123');
@@ -34,7 +34,7 @@ describe('Login Functionality Tests', () => {
         console.log('✓ TC1 Passed');
     });
 
-    // --- CASE 2: NEGATIVE USERNAME ---
+    //CASE 2: NEGATIVE USERNAME
     it('TC2 - Should show error message with invalid username', async () => {
         // Login username salah
         await LoginPage.login('incorrectUser', 'Password123');
@@ -50,7 +50,7 @@ describe('Login Functionality Tests', () => {
         console.log('✓ TC2 Passed');
     });
 
-    // --- CASE 3: NEGATIVE PASSWORD ---
+    //CASE 3: NEGATIVE PASSWORD
     it('TC3 - Should show error message with invalid password', async () => {
         // Login password salah
         await LoginPage.login('student', 'incorrectPassword');
