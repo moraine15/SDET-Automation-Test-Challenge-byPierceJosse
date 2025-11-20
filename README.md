@@ -68,4 +68,30 @@ The script ensures:
 
 -----
 
+## 📊 Execution Results
+
+The automation script has been executed successfully. Below is the latest test run output showing all 3 scenarios passed.
+
+
+```text
+Execution of 1 workers started at 2025-11-20T14:35:56.358Z
+
+
+https://github.com/user-attachments/assets/8897bc8f-b00a-44ba-aa8f-67bb236ee68a
+
+
+[chrome 133.0.6943.100 windows #0-0] Running: chrome (v133.0.6943.100) on windows
+[chrome 133.0.6943.100 windows #0-0] Session ID: afa00be39c2bea7cf559071ee623717d
+[chrome 133.0.6943.100 windows #0-0]
+[chrome 133.0.6943.100 windows #0-0] » test\specs\tc-all-master.test.js
+[chrome 133.0.6943.100 windows #0-0] Login Functionality Tests
+[chrome 133.0.6943.100 windows #0-0]    ✓ TC1 - Should login successfully with valid credentials
+[chrome 133.0.6943.100 windows #0-0]    ✓ TC2 - Should show error message with invalid username
+[chrome 133.0.6943.100 windows #0-0]    ✓ TC3 - Should show error message with invalid password
+[chrome 133.0.6943.100 windows #0-0]
+[chrome 133.0.6943.100 windows #0-0] 3 passing (3.8s)
+
+Spec Files:      1 passed, 1 total (100% completed) in 00:00:06
+```
+
 *Happy Testing\!*
